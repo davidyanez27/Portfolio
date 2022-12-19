@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento|Titillium Web|Lato"
+    rel="stylesheet">
+<script src="https://kit.fontawesome.com/2cb25f2c39.js" crossorigin="anonymous"></script>
+
+
+<title>Moises Campos | Developer</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="img/favicon.ico">
+<!-- <link href='//fonts.googleapis.com/css?family=Signika+Negative:300,400' rel='stylesheet' type='text/css'> -->
+
+<body>
+
+    <!------------------------------- Header ------------------------------->
+    <header>
+
+        <!-- Navigation -->
+        <div class="container_menu">
+            
+            <div class="menu">
+                <i class="fas fa-bars" id="btn_menu"></i>
+
+                <div id="back_menu"></div>
+
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#About" onclick="ocultar_menu()">About me</a></li>
+                        <li><a href="#Skillsets" onclick="ocultar_menu()">Skillsets</a></li>
+                        <li><a href="#Projects" onclick="ocultar_menu()">Projects</a></li>
+                        <li><a href="#Contact" onclick="ocultar_menu()">Contact</a></li>
+                    </ul>
+                </nav>
+            
+            </div>
+
+
+            <!-- Social Networks -->
+            <div class="social">
+                <nav id="social">
+                    <ul>
+                        <li class="Git"><a class="social " href="https://github.com/davidyanez27"><i class="fab fa-github icon"></i></a></li>
+                        <li class="Linkedin"><a class="social" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in icon"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+   
+    <!------------------------------- Information ------------------------------->
+    <div class="about" id="About">
+
+        <!-- Personal Information -->
+        <div class="information">
+            <h1 class="name">Hi, I'm Moises</h1>
+            <h2 >a Software enthusiast</h2>
+            
+            <div id="Console_mobile">
+                <div class='console-container'><span id='mobile'></span>
+                    <div class='console-underscore' id='mobile_console'></div>
+                </div>
+            </div>
+
+            <p class="about-me">
+               Self-taught programmer who loves automation and the search for efficiency in development methods. 
+               I am also a Mechanical Engineer, with a strong interest in 3D modeling and programming.
+            </p>
+
+            <div class="CV">
+
+                <div id="CV_container">
+                    <button class="arrow" onclick="window.open('CV.pdf')">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Curriculum </span>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <!-- Desktop -->
+        <div id="desktop_container">
+
+            <div class="screen monitor">
+                <div class="content">
+                  <div class="page">
+                    <div class='console-container'><span id='text'></span>
+                        <div class='console-underscore' id='console'></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="base">
+                  <div class="grey-shadow"></div>
+                  <div class="foot top"></div>
+                  <div class="foot bottom"></div>
+                  <div class="keyboard"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    
+    <!------------------------------- Arrow Down Skillsets------------------------------->
+    <div class="arrow_down" id="Skillsets"><i class="fa-solid fa-arrow-down"></i></div>
+
+
+    <!------------------------------- Skillsets ------------------------------->
+    <div class="blue_container">
+        <div class="blue_name">my skillsets</div>
+        <div class="skillsets">
+            <div class="skill"><i class="fa-brands fa-android"></i>Flutter</div>
+            <div class="skill"><i class="fab fa-js"></i>JavaScript</div>
+            <div class="skill"><i class="fab fa-html5"></i>HTML5</div>
+            <div class="skill"><i class="fab fa-css3"></i>CSS3</div>
+            <div class="skill"><i class="fab fa-python"></i>Python</div>
+            <div class="skill"><i class="fas fa-paint-brush"></i>UI-UX</div>
+        </div>
+    </div>
+
+    <!------------------------------- Arrow Down Projects ------------------------------->
+    <div class="arrow_down" id="Projects"><i class="fa-solid fa-arrow-down"></i></div>
+
+
+    <!-- Projects -->
+
+    <div class="projects">
+
+        <div class="blue_name" >Some of my projects</div> 
+
+            
+            <div class="projects_container">
+
+                <!-- Flutter -->
+                <div class="project_item "><a target="_blank" href="https://github.com/davidyanez27/QR">
+                    <div class="card">
+                        <div class="image_box">
+                            <img src="../img/qr_generator.png">
+                        </div>  
+            
+                        <div class="content_box">
+                            <div class="project_description">
+                                <h3>QR Generator</h3> <br>
+                                <p>This is a flutter app for a friend to make a QR code containing all the 
+                                   information of the visitors and then scan it to the database. For the 
+                                   database use firebase, in the future I will create the api in node js 
+                                   and use firebase only to send notifications when a visitor has arrived.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="project_name"><span class="code">&lt;</span> QR Generator <span class="code">&#47;&gt;</span></p>
+                </div>
+
+
+
+           <!-- Inventory -->
+           <div class="project_item "><a target="_blank" href="https://github.com/davidyanez27/Inventory">
+                <div class="card">
+                    <div class="image_box">
+                        <img src="../img/inventory.png">
+                    </div>  
+        
+                    <div class="content_box">
+                        <div class="project_description">
+                            <h3>INVENTORY</h3> <br>
+                            <p>This is a prototype of an inventory for a company of Industrial Mechanical 
+                                Engineers where I did my professional practice with the aim of improving 
+                                the preparation times and execution of tool maintenance. The TKinter library 
+                                of python and SQLite was used for the database.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="project_name"><span class="code">&lt;</span> Inventory <span class="code">&#47;&gt;</span></p>
+            </div>
+
+
+           <!-- lawyer -->
+           <div class="project_item "><a target="_blank" href="https://github.com/davidyanez27/Snake_Game">
+                <div class="card">
+                    <div class="image_box">
+                        <img src="../img/snake_game.png">
+                    </div>  
+        
+                    <div class="content_box">
+                        <div class="project_description">
+                            <h3>Snake Game</h3> <br>
+                            <p>This is an iconic game that we all play on our old cell phones or arcade machines. 
+                                It is a short but practical program developed with the Turtle python library and 
+                                is basically a practice to develop object-oriented programming skills and the logic 
+                                of how a small program should work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="project_name"><span class="code">&lt;</span> Snake Game <span class="code">&#47;&gt;</span></p>
+        </div>
+
+
+        <div class="git_page" ><a target="_blank" href="https://github.com/davidyanez27"> More Projects </a><span code>&raquo;</span></div>
+
+    </div>
+    
+    
+
+
+    <!------------------------------- Arrow Down Contact ------------------------------->
+    <div class="arrow_down" id="Contact"><i class="fa-solid fa-arrow-down"></i></div>
+
+
+<!-- Contact me  -->
+    <!------------------------------- Contact me ------------------------------->
+
+
+    <div class="blue_container" >
+
+        <!-- Contact -->
+        <h1 class="blue_name"> Contact</h1>
+        <p class="contact">If you have a project that you want to get started, think you need my help with something, then get in touch.</p>
+
+        <!-- Letter -->
+        <div class="letter_image">
+
+            <div class="animated_mail">
+                <div class="back_fold"></div>
+                <div class="letter">
+                    <a href="mailto:davidyanez-27@hotmail.com">Send Email here!</a>
+                    <div class="letter_border"></div>
+                    <div class="letter_title"></div>
+                    <div class="letter_context"></div>
+                    <div class="letter_stamp">
+                        <div class="letter_stamp_inner"></div>
+                    </div>
+                </div>
+                <div class="top_fold"></div>
+                <div class="body"></div>
+                <div class="left_fold"></div>
+            </div>
+
+            <div class="shadow"></div>
+        </div>
+
+    </div>
+
+    <!------------------------------- Footer ------------------------------->
+    <div class="footer">
+        <p class="copyright"> Moises David Campos Yanez <br> ©2022. All rights reserved.</p>
+    </div>
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+
+</html>
+
+
+
+
+<!-- ooooooooooooooooooooooooooo -->
+
+
+        <!-- <div class="card">
+            <div class="image_box">
+                <img src="../img/adeq.png">
+            </div>  
+
+            <div class="content_box">
+                <div class="project_description">
+                    <h3>flutter</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ut vel atque error a fugit non blanditiis quidem animi dolor ipsum, dicta voluptatibus labore in, facere dolorem rem hic enim explicabo distinctio officiis nisi autem. Omnis repellendus ea deserunt nesciunt recusandae porro dolorum, voluptatem soluta, accusantium iusto consequuntur praesentium mollitia.</p>
+                </div>
+            </div>
+        </div> -->
+
+<!-- <div class="proj" id="proj" style="overflow-x: hidden;">
+
+    <div class="prname" data-aos="fade-right">SOME OF MY PROJECTS</div>
+
+    <div class="prlist">
+        <div class="pritem pr1"><a target="_blank" href="https://nguyend-nam.github.io/Weather-Now/">
+            
+            <p class="project_name"><span class="code">&lt;</span> Weather Now <span class="code">&#47;&gt;</span></p>
+        </a></div>
+        <div class="pritem pr2"><a target="_blank" href="https://decsp.github.io/Problem-Randomizer/">
+            <img src="../img/adeq.png"><p class="des"><span class="code">&lt;</span> Problem Randomizer <span class="code">&#47;&gt;</span></p>
+        </a></div>
+
+        <div class="pritem pr4"><a target="_blank" href="https://nguyend-nam.github.io/FlashCard_Resume/#a">
+            <img src="../img/adeq.png"><p class="des"><span class="code">&lt;</span> Flash-card Resume <span class="code">&#47;&gt;</span></p>
+        </a></div>
+
+    </div>
+    <div class="prname" style="font-size: 180%; width: 310px; font-style: oblique; border: none; margin-bottom: 30px;"><a target="_blank" href="https://github.com/NguyenD-Nam" style="text-decoration: none; text-decoration: underline;">View on my GitHub </a><span>&raquo;</span></div>
+</div> -->
