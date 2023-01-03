@@ -19,7 +19,7 @@ function ocultar_menu(){
 
 
 // Desktop Animation
-consoleText(['Python', 'JavaScript', 'Flutter', "HTML", "CSS"], 'text', "mobile",['DodgerBlue','Gold','DeepSkyBlue', 'Orange','CornflowerBlue']);
+consoleText(['Python', 'JavaScript', 'Linux', 'Flutter','React', 'Node.js', 'HTML', 'CSS', 'UI-UX'], 'text', "mobile",['DodgerBlue', 'Gold', 'DimGray', 'DodgerBlue', 'DeepSkyBlue', 'ForestGreen','Orange','CornflowerBlue', 'Indigo']);
 
 function consoleText(words, id, mobile,colors) {
   if (colors === undefined) colors = ['#fff'];
